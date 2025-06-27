@@ -17,7 +17,7 @@
 
 ## 📸 Captura de pantalla
 
-> ![Demo del Chat](./screenshot.png)
+> ![Demo del Chat](https://github.com/user-attachments/assets/341b5dd2-0f55-47c6-acf7-5c47c0cd64a5)
 
 ---
 
