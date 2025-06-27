@@ -1,23 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ChatGPT Clone</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
 </head>
 <body>
 
-<h1>OpenAI JS</h1>
+    <div class="chat-container">
+        <div class="chat-header">IA ChatBot</div>
+        <div id="chat"></div>
+        <div class="input-area">
+            <textarea id="prompt" placeholder="Escribe tu mensaje..."></textarea>
+            <button id="generate">Enviar</button>
+        </div>
+    </div>
 
-<input type="text" placeholder="Write your prompt" id="prompt">
-<button id="generate">Generate</button>
 
-<p id="output"></p>
-
-
-  <script src="env.js"></script>
-<script src="script.js"></script>
+    <!-- Marked.js para Markdown -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="env.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
